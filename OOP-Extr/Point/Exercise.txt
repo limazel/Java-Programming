@@ -1,0 +1,11 @@
+Exercise: Try writing these more complex methods for the Line class:
+
+// Return the gradient of this line in radian (use Math.atan2(y, x)).
+public double getGradient()
+
+// Return the distance from this line to the given point.
+public double distance(int x, int y)
+public double distance(Point p)
+
+// Return true if this line intersects the given line.
+public boolean intersects(Line another)
